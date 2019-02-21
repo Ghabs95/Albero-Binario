@@ -1,0 +1,39 @@
+Negli alberi puo' capitare di non sapere a priori il numero dei figli di ciascun nodo.
+E' possibile quindi associare ad ogni nodo una lista di puntatori ai suoi figli.
+La lista puo' essere rappresentata con una struttura collegata.
+
+Dopo aver realizzato opportunamente una classe NodoLF per rappresentare ogni nodo, supponendo che
+contenga una sola informazione di tipo generico, utilizzarla per la realizzazione
+di una classe ALberoLF che implementi i metodi per le seguenti operazioni
+caratteristiche degli alberi:
+
+01) restituire il numero di nodi presenti nell'albero;
+
+02) restituire il numero di figli di un nodo;
+
+03) restituire il contenuto di un nodo;
+
+04) cambiare il contenuto di un nodo;
+
+05) restituire la radice dell'albero;
+
+06) restituire il padre di un nodo;
+
+07) restituire la lista delle informazioni dei figli di un nodo;
+
+08) inserire la radice in un albero vuoto e restituirla;
+
+09) inserire una nuova radice in un albero non vuoto in modo che la vecchia radice sia sua figlia
+e restituire la nuova radice;
+
+10) inserire un nodo nuovo v come figlio di un nodo u gia' presente nell'albero e restituirlo;
+
+11) attraversare l'albero in profondita' e restituire la lista delle informazioni 
+dei nodi cosi' incontrati;
+
+13) attraversare l'albero in ampiezza e restituire la lista delle informazioni 
+dei nodi cosi' incontrati;
+
+14) restiuire l'altezza dell'albero. 
+
+Commentare opportunamente, dove ritenuto necessario, il codice.
